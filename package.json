@@ -94,7 +94,9 @@
     "extension": "lib/index",
     "outputDir": "techx/labextension",
     "themePath": "style/index.css",
-    "disabledExtensions": ["@jupyterlab/application-extension:logo"]
+    "disabledExtensions": [
+      "@jupyterlab/application-extension:logo"
+    ]
   },
   "eslintIgnore": [
     "node_modules",
@@ -175,5 +177,6 @@
       "alpha-value-notation": null,
       "color-function-notation": null
     }
-  }
+  },
+  "packageManager": "yarn@4.2.2"
 }
